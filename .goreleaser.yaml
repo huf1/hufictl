@@ -15,7 +15,8 @@ git:
     - "{{ if not .IsNightly }}nightly{{ end }}"
 
 builds:
-  - env:
+  - main: ./cmd/hufictl
+    env:
       - CGO_ENABLED=0
     goos:
       - linux
