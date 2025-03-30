@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/huf1/hufictl/compare/v0.6.0...v0.7.0) (2025-03-30)
+
+
+### Features
+
+* **workflow:** try out github.event.head_commit.author.name ([1052b83](https://github.com/huf1/hufictl/commit/1052b83855ffccc273d83e132f5dd06663fc5dec))
+
 ## [0.6.0](https://github.com/huf1/hufictl/compare/v0.5.0...v0.6.0) (2025-03-30)
 
 
