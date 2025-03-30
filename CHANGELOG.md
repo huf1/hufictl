@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.0](https://github.com/huf1/hufictl/compare/v0.8.0...v0.9.0) (2025-03-30)
+
+
+### Features
+
+* **goreleaser:** add arch arm64 and remove changelog settings ([d2b81f2](https://github.com/huf1/hufictl/commit/d2b81f218b9486d9c7b9d50677ec71cbbcb69db9))
+
 ## [0.8.0](https://github.com/huf1/hufictl/compare/v0.7.0...v0.8.0) (2025-03-30)
 
 
