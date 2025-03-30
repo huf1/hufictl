@@ -20,6 +20,7 @@ jobs:
           release-type: go
           token: ${{ secrets.GITHUB_TOKEN }}
   goreleaser:
+    if: ${{ github.actor == 'github-actions[bot]' || github.event_name == 'workflow_dispatch' }}
     needs: [release-please]
     runs-on: ubuntu-latest
     steps:
