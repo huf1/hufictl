@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/huf1/hufictl/compare/v0.4.0...v0.5.0) (2025-03-30)
+
+
+### Features
+
+* **workflow:** echo out github.actor ([de9ec84](https://github.com/huf1/hufictl/commit/de9ec84b3701ea0c4bdfc250fc30c348321a2b37))
+
 ## [0.4.0](https://github.com/huf1/hufictl/compare/v0.3.0...v0.4.0) (2025-03-30)
 
 
