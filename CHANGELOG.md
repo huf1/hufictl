@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/huf1/hufictl/compare/v0.3.0...v0.4.0) (2025-03-30)
+
+
+### Features
+
+* **workflow:** only run release from bot opened PR or manual run ([7450e32](https://github.com/huf1/hufictl/commit/7450e32104a497cc4a2ff5d61aa0ab4dc4b18ae5))
+
 ## [0.3.0](https://github.com/huf1/hufictl/compare/v0.2.0...v0.3.0) (2025-03-30)
 
 
