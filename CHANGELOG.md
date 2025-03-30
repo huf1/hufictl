@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.0](https://github.com/huf1/hufictl/compare/v0.7.0...v0.8.0) (2025-03-30)
+
+
+### Features
+
+* **workflow:** remove echos ([0cdfa4d](https://github.com/huf1/hufictl/commit/0cdfa4d68e8818535e91cf73d20cedcc3d7f280a))
+
 ## [0.7.0](https://github.com/huf1/hufictl/compare/v0.6.0...v0.7.0) (2025-03-30)
 
 
