@@ -19,6 +19,8 @@ jobs:
         with:
           release-type: go
           token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Github Actor
+        run: echo "${{ github.actor }}"
   goreleaser:
     if: ${{ github.actor == 'github-actions[bot]' || github.event_name == 'workflow_dispatch' }}
     needs: [release-please]
