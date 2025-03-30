@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.0](https://github.com/huf1/hufictl/compare/v0.5.0...v0.6.0) (2025-03-30)
+
+
+### Features
+
+* **workflow:** try out pusher.name ([1272ca5](https://github.com/huf1/hufictl/commit/1272ca5de2d1689557b87f8b45e41c93bb69e5b4))
+
 ## [0.5.0](https://github.com/huf1/hufictl/compare/v0.4.0...v0.5.0) (2025-03-30)
 
 
