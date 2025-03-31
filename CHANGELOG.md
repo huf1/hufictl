@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.10.0](https://github.com/huf1/hufictl/compare/v0.9.0...v0.10.0) (2025-03-31)
+
+
+### Features
+
+* **cli:** add support for ldflags set by goreleaser ([1e24f17](https://github.com/huf1/hufictl/commit/1e24f17f65fd16cff23e65d2fb3d2222903ce994))
+
+
+### Bug Fixes
+
+* **lottery:** change color of additional number output to yellow ([5e1c4ed](https://github.com/huf1/hufictl/commit/5e1c4ed1c5a718a6f54ad7f86057e5cca6c4ba3e))
+
 ## [0.9.0](https://github.com/huf1/hufictl/compare/v0.8.0...v0.9.0) (2025-03-30)
 
 
