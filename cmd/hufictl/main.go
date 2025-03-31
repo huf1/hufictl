@@ -1,25 +1,36 @@
 package main
 
 import (
-	hq2 "github.com/conplementag/cops-hq/v2/pkg/hq"
+	"fmt"
+	"github.com/conplementag/cops-hq/v2/pkg/hq"
 	"github.com/huf1/hufictl/internal/hufictl/orchestration/lottery"
 )
 
-func main() {
-	hq := hq2.NewQuiet("hufictl", "0.1.0", "hufictl.log")
-	createCommands(hq)
+// see .goreleaser.yaml ldflags
+var version = "local"
+var commit = "local"
+var date = "local"
 
-	err := hq.Run()
+func main() {
+	copshq := hq.NewQuiet("hufictl", version, "hufictl.log")
+	createCommands(copshq)
+
+	err := copshq.Run()
 
 	if err != nil {
 		panic(err)
 	}
 }
 
-func createCommands(hq hq2.HQ) {
+func createCommands(hq hq.HQ) {
 	lotteryCommandGroup := hq.GetCli().AddBaseCommand("lottery", "", "", nil)
 
 	lotteryCommandGroup.AddCommand("spin", "", "", func() {
 		lottery.NewOrchestrator().Spin()
 	})
+
+	hq.GetCli().AddBaseCommand("version-full", "", "", func() {
+		fmt.Printf("Version: %s\nCommit: %s\nDate: %s\n", version, commit, date)
+	})
+
 }
