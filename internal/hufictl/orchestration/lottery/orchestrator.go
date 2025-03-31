@@ -16,7 +16,7 @@ func NewOrchestrator() *Orchestrator {
 
 func (orchestrator *Orchestrator) Spin() {
 	blueColor := color.New(color.FgBlue)
-	greenColor := color.New(color.FgGreen)
+	yellowColor := color.New(color.FgHiYellow)
 
 	fortyNine := 49
 	nine := 9
@@ -39,6 +39,6 @@ func (orchestrator *Orchestrator) Spin() {
 	fmt.Println("Your next winning lottery numbers are:")
 	_, err := blueColor.Printf("%d ", mainNumbers)
 	helpers.FatalOnError(err)
-	_, err = greenColor.Println(additionalNumber)
+	_, err = yellowColor.Println(additionalNumber)
 	helpers.FatalOnError(err)
 }
